@@ -1,0 +1,1555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk+" version="2.24"/>
+  <!-- interface-naming-policy project-wide -->
+  <object class="GtkWindow" id="home">
+    <property name="can_focus">False</property>
+    <property name="resizable">False</property>
+    <property name="default_width">800</property>
+    <property name="default_height">700</property>
+    <child>
+      <object class="GtkTable" id="table1">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="n_rows">32</property>
+        <property name="n_columns">10</property>
+        <child>
+          <object class="GtkHSeparator" id="hseparator1">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+          </object>
+          <packing>
+            <property name="left_attach">2</property>
+            <property name="right_attach">4</property>
+            <property name="top_attach">1</property>
+            <property name="bottom_attach">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkHSeparator" id="hseparator2">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+          </object>
+          <packing>
+            <property name="left_attach">4</property>
+            <property name="right_attach">5</property>
+            <property name="top_attach">1</property>
+            <property name="bottom_attach">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkHSeparator" id="hseparator3">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+          </object>
+          <packing>
+            <property name="left_attach">5</property>
+            <property name="right_attach">6</property>
+            <property name="top_attach">1</property>
+            <property name="bottom_attach">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkHSeparator" id="hseparator4">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+          </object>
+          <packing>
+            <property name="left_attach">6</property>
+            <property name="right_attach">7</property>
+            <property name="top_attach">1</property>
+            <property name="bottom_attach">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkHSeparator" id="hseparator6">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+          </object>
+          <packing>
+            <property name="left_attach">7</property>
+            <property name="right_attach">8</property>
+            <property name="top_attach">1</property>
+            <property name="bottom_attach">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label1">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Create Encrypted Database</property>
+            <attributes>
+              <attribute name="weight" value="ultrabold"/>
+              <attribute name="underline" value="True"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="left_attach">2</property>
+            <property name="right_attach">3</property>
+            <property name="top_attach">3</property>
+            <property name="bottom_attach">4</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label2">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Please choose the folder containing UCID images and the fingerprint images  (for authentication). Hit the 'Create encrypted image database' 
+button to create database containing encrypted images and authentication information.</property>
+            <property name="width_chars">100</property>
+          </object>
+          <packing>
+            <property name="left_attach">3</property>
+            <property name="right_attach">8</property>
+            <property name="top_attach">5</property>
+            <property name="bottom_attach">7</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label7">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes"> </property>
+            <property name="width_chars">5</property>
+          </object>
+          <packing>
+            <property name="top_attach">4</property>
+            <property name="bottom_attach">5</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label8">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+          </object>
+          <packing>
+            <property name="left_attach">3</property>
+            <property name="right_attach">4</property>
+            <property name="top_attach">4</property>
+            <property name="bottom_attach">5</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkAlignment" id="alignment1">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <child>
+              <placeholder/>
+            </child>
+          </object>
+          <packing>
+            <property name="top_attach">7</property>
+            <property name="bottom_attach">8</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label3">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+          </object>
+          <packing>
+            <property name="left_attach">2</property>
+            <property name="right_attach">3</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label4">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes"> </property>
+            <property name="width_chars">5</property>
+          </object>
+          <packing>
+            <property name="left_attach">1</property>
+            <property name="right_attach">2</property>
+            <property name="top_attach">4</property>
+            <property name="bottom_attach">5</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label9">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes"> </property>
+            <property name="width_chars">5</property>
+          </object>
+          <packing>
+            <property name="left_attach">8</property>
+            <property name="right_attach">9</property>
+            <property name="top_attach">4</property>
+            <property name="bottom_attach">5</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label10">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes"> </property>
+            <property name="width_chars">5</property>
+          </object>
+          <packing>
+            <property name="left_attach">9</property>
+            <property name="right_attach">10</property>
+            <property name="top_attach">4</property>
+            <property name="bottom_attach">5</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkHSeparator" id="hseparator5">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+          </object>
+          <packing>
+            <property name="left_attach">2</property>
+            <property name="right_attach">3</property>
+            <property name="top_attach">14</property>
+            <property name="bottom_attach">15</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkHSeparator" id="hseparator7">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+          </object>
+          <packing>
+            <property name="left_attach">3</property>
+            <property name="right_attach">4</property>
+            <property name="top_attach">14</property>
+            <property name="bottom_attach">15</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkHSeparator" id="hseparator8">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+          </object>
+          <packing>
+            <property name="left_attach">5</property>
+            <property name="right_attach">6</property>
+            <property name="top_attach">14</property>
+            <property name="bottom_attach">15</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkHSeparator" id="hseparator9">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+          </object>
+          <packing>
+            <property name="left_attach">4</property>
+            <property name="right_attach">5</property>
+            <property name="top_attach">14</property>
+            <property name="bottom_attach">15</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkHSeparator" id="hseparator10">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+          </object>
+          <packing>
+            <property name="left_attach">6</property>
+            <property name="right_attach">7</property>
+            <property name="top_attach">14</property>
+            <property name="bottom_attach">15</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkHSeparator" id="hseparator11">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+          </object>
+          <packing>
+            <property name="left_attach">7</property>
+            <property name="right_attach">8</property>
+            <property name="top_attach">14</property>
+            <property name="bottom_attach">15</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label5">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes"> </property>
+            <property name="width_chars">5</property>
+          </object>
+          <packing>
+            <property name="left_attach">2</property>
+            <property name="right_attach">3</property>
+            <property name="top_attach">7</property>
+            <property name="bottom_attach">8</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label6">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes"> </property>
+            <property name="width_chars">5</property>
+          </object>
+          <packing>
+            <property name="left_attach">2</property>
+            <property name="right_attach">3</property>
+            <property name="top_attach">2</property>
+            <property name="bottom_attach">3</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label11">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes"> </property>
+            <property name="width_chars">5</property>
+          </object>
+          <packing>
+            <property name="left_attach">2</property>
+            <property name="right_attach">3</property>
+            <property name="top_attach">15</property>
+            <property name="bottom_attach">16</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label12">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">UCID images</property>
+          </object>
+          <packing>
+            <property name="left_attach">2</property>
+            <property name="right_attach">3</property>
+            <property name="top_attach">9</property>
+            <property name="bottom_attach">10</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label14">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Fingerprint image</property>
+          </object>
+          <packing>
+            <property name="left_attach">2</property>
+            <property name="right_attach">3</property>
+            <property name="top_attach">11</property>
+            <property name="bottom_attach">12</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkHSeparator" id="hseparator12">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+          </object>
+          <packing>
+            <property name="left_attach">2</property>
+            <property name="right_attach">3</property>
+            <property name="top_attach">8</property>
+            <property name="bottom_attach">9</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkHSeparator" id="hseparator18">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+          </object>
+          <packing>
+            <property name="left_attach">2</property>
+            <property name="right_attach">3</property>
+            <property name="top_attach">10</property>
+            <property name="bottom_attach">11</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label13">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes"> </property>
+            <property name="width_chars">5</property>
+          </object>
+          <packing>
+            <property name="left_attach">4</property>
+            <property name="right_attach">5</property>
+            <property name="top_attach">10</property>
+            <property name="bottom_attach">11</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label15">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes"> </property>
+            <property name="width_chars">5</property>
+          </object>
+          <packing>
+            <property name="left_attach">4</property>
+            <property name="right_attach">5</property>
+            <property name="top_attach">12</property>
+            <property name="bottom_attach">13</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkFileChooserButton" id="filechooserbutton1">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <signal name="file-set" handler="on_filechooserbutton1_file_set" swapped="no"/>
+          </object>
+          <packing>
+            <property name="left_attach">3</property>
+            <property name="right_attach">6</property>
+            <property name="top_attach">9</property>
+            <property name="bottom_attach">10</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkFileChooserButton" id="filechooserbutton2">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <signal name="file-set" handler="on_filechooserbutton2_file_set" swapped="no"/>
+          </object>
+          <packing>
+            <property name="left_attach">3</property>
+            <property name="right_attach">6</property>
+            <property name="top_attach">11</property>
+            <property name="bottom_attach">12</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button1">
+            <property name="label" translatable="yes">Create encrypted
+image database !</property>
+            <property name="use_action_appearance">False</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_button1_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="left_attach">7</property>
+            <property name="right_attach">8</property>
+            <property name="top_attach">8</property>
+            <property name="bottom_attach">10</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label16">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Validation</property>
+            <attributes>
+              <attribute name="weight" value="ultrabold"/>
+              <attribute name="underline" value="True"/>
+            </attributes>
+          </object>
+          <packing>
+            <property name="left_attach">2</property>
+            <property name="right_attach">3</property>
+            <property name="top_attach">16</property>
+            <property name="bottom_attach">17</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label17">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes"> </property>
+            <property name="width_chars">5</property>
+          </object>
+          <packing>
+            <property name="left_attach">3</property>
+            <property name="right_attach">4</property>
+            <property name="top_attach">17</property>
+            <property name="bottom_attach">18</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label18">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Please select the location of test image and the fingerprint image (for authentication) and update the values 
+before validating !</property>
+            <property name="width_chars">100</property>
+          </object>
+          <packing>
+            <property name="left_attach">3</property>
+            <property name="right_attach">4</property>
+            <property name="top_attach">18</property>
+            <property name="bottom_attach">19</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label19">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes"> </property>
+            <property name="width_chars">5</property>
+          </object>
+          <packing>
+            <property name="left_attach">2</property>
+            <property name="right_attach">3</property>
+            <property name="top_attach">19</property>
+            <property name="bottom_attach">20</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkHSeparator" id="hseparator13">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+          </object>
+          <packing>
+            <property name="left_attach">2</property>
+            <property name="right_attach">3</property>
+            <property name="top_attach">20</property>
+            <property name="bottom_attach">21</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label20">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Test image</property>
+            <property name="justify">center</property>
+          </object>
+          <packing>
+            <property name="left_attach">2</property>
+            <property name="right_attach">3</property>
+            <property name="top_attach">21</property>
+            <property name="bottom_attach">22</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkHSeparator" id="hseparator14">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+          </object>
+          <packing>
+            <property name="left_attach">2</property>
+            <property name="right_attach">3</property>
+            <property name="top_attach">22</property>
+            <property name="bottom_attach">23</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label21">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes">Authentication 
+image</property>
+            <property name="justify">center</property>
+          </object>
+          <packing>
+            <property name="left_attach">2</property>
+            <property name="right_attach">3</property>
+            <property name="top_attach">23</property>
+            <property name="bottom_attach">24</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkFileChooserButton" id="filechooserbutton3">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <signal name="file-set" handler="on_filechooserbutton3_file_set" swapped="no"/>
+          </object>
+          <packing>
+            <property name="left_attach">3</property>
+            <property name="right_attach">6</property>
+            <property name="top_attach">21</property>
+            <property name="bottom_attach">22</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label22">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes"> </property>
+            <property name="width_chars">5</property>
+          </object>
+          <packing>
+            <property name="left_attach">4</property>
+            <property name="right_attach">5</property>
+            <property name="top_attach">22</property>
+            <property name="bottom_attach">23</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkFileChooserButton" id="filechooserbutton4">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <signal name="file-set" handler="on_filechooserbutton4_file_set" swapped="no"/>
+          </object>
+          <packing>
+            <property name="left_attach">3</property>
+            <property name="right_attach">6</property>
+            <property name="top_attach">23</property>
+            <property name="bottom_attach">24</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label23">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes"> </property>
+            <property name="width_chars">5</property>
+          </object>
+          <packing>
+            <property name="left_attach">4</property>
+            <property name="right_attach">5</property>
+            <property name="top_attach">24</property>
+            <property name="bottom_attach">25</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkHSeparator" id="hseparator15">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+          </object>
+          <packing>
+            <property name="left_attach">2</property>
+            <property name="right_attach">3</property>
+            <property name="top_attach">25</property>
+            <property name="bottom_attach">26</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkHSeparator" id="hseparator16">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+          </object>
+          <packing>
+            <property name="left_attach">3</property>
+            <property name="right_attach">4</property>
+            <property name="top_attach">25</property>
+            <property name="bottom_attach">26</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkHSeparator" id="hseparator17">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+          </object>
+          <packing>
+            <property name="left_attach">4</property>
+            <property name="right_attach">5</property>
+            <property name="top_attach">25</property>
+            <property name="bottom_attach">26</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkHSeparator" id="hseparator19">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+          </object>
+          <packing>
+            <property name="left_attach">5</property>
+            <property name="right_attach">6</property>
+            <property name="top_attach">25</property>
+            <property name="bottom_attach">26</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkHSeparator" id="hseparator20">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+          </object>
+          <packing>
+            <property name="left_attach">6</property>
+            <property name="right_attach">7</property>
+            <property name="top_attach">25</property>
+            <property name="bottom_attach">26</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkHSeparator" id="hseparator21">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+          </object>
+          <packing>
+            <property name="left_attach">7</property>
+            <property name="right_attach">8</property>
+            <property name="top_attach">25</property>
+            <property name="bottom_attach">26</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button2">
+            <property name="label" translatable="yes">Validate !</property>
+            <property name="use_action_appearance">False</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_button2_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="left_attach">7</property>
+            <property name="right_attach">8</property>
+            <property name="top_attach">21</property>
+            <property name="bottom_attach">24</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label24">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes"> </property>
+            <property name="width_chars">5</property>
+          </object>
+          <packing>
+            <property name="left_attach">6</property>
+            <property name="right_attach">7</property>
+            <property name="top_attach">22</property>
+            <property name="bottom_attach">23</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label25">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes"> </property>
+            <property name="width_chars">5</property>
+          </object>
+          <packing>
+            <property name="left_attach">6</property>
+            <property name="right_attach">7</property>
+            <property name="top_attach">10</property>
+            <property name="bottom_attach">11</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label26">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes"> </property>
+            <property name="width_chars">5</property>
+          </object>
+          <packing>
+            <property name="left_attach">2</property>
+            <property name="right_attach">3</property>
+            <property name="top_attach">26</property>
+            <property name="bottom_attach">27</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label27">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes"> </property>
+            <property name="width_chars">5</property>
+          </object>
+          <packing>
+            <property name="left_attach">2</property>
+            <property name="right_attach">3</property>
+            <property name="top_attach">29</property>
+            <property name="bottom_attach">30</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button3">
+            <property name="label">gtk-close</property>
+            <property name="use_action_appearance">False</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <property name="use_stock">True</property>
+            <signal name="clicked" handler="on_button3_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="left_attach">7</property>
+            <property name="right_attach">8</property>
+            <property name="top_attach">27</property>
+            <property name="bottom_attach">29</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label28">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes"> </property>
+            <property name="width_chars">5</property>
+          </object>
+          <packing>
+            <property name="left_attach">3</property>
+            <property name="right_attach">4</property>
+            <property name="top_attach">27</property>
+            <property name="bottom_attach">28</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label29">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes"> </property>
+            <property name="width_chars">5</property>
+          </object>
+          <packing>
+            <property name="left_attach">3</property>
+            <property name="right_attach">4</property>
+            <property name="top_attach">28</property>
+            <property name="bottom_attach">29</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label30">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes"> </property>
+            <property name="width_chars">5</property>
+          </object>
+          <packing>
+            <property name="left_attach">7</property>
+            <property name="right_attach">8</property>
+            <property name="top_attach">26</property>
+            <property name="bottom_attach">27</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label31">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes"> </property>
+            <property name="width_chars">5</property>
+          </object>
+          <packing>
+            <property name="left_attach">7</property>
+            <property name="right_attach">8</property>
+            <property name="top_attach">29</property>
+            <property name="bottom_attach">30</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="button4">
+            <property name="label" translatable="yes">Delete Encrypted 
+image database !</property>
+            <property name="use_action_appearance">False</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="on_button4_clicked" swapped="no"/>
+          </object>
+          <packing>
+            <property name="left_attach">7</property>
+            <property name="right_attach">8</property>
+            <property name="top_attach">11</property>
+            <property name="bottom_attach">13</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="label32">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="label" translatable="yes"> </property>
+            <property name="width_chars">5</property>
+          </object>
+          <packing>
+            <property name="left_attach">2</property>
+            <property name="right_attach">3</property>
+            <property name="top_attach">13</property>
+            <property name="bottom_attach">14</property>
+          </packing>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+        <child>
+          <placeholder/>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
